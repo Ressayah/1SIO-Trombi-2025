@@ -5,8 +5,6 @@
   padding: 10px;
   border: 3px solid gold;
   border-radius: 10px;
-
-  /* Glow léger par défaut */
   box-shadow: 0 0 6px gold;
 }
 
@@ -14,8 +12,6 @@
   transition: transform 0.8s ease-in-out,
               box-shadow 0.8s ease-in-out;
 }
-
-/* Au hover : spin + glow renforcé */
 #LUTAUD:hover img {
   transform: rotate(360deg);
   box-shadow: 0 0 20px gold, 0 0 30px gold inset;
